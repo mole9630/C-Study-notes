@@ -18,6 +18,7 @@ int main()
 	}
 	printf("\"%d\"的绝对值是\"%d\"\n",x,abs);
 
+
 	//2.单分支求绝对值
 	int x,abs;
 	printf("请输入任意一个数:");
@@ -29,6 +30,7 @@ int main()
 	}
 	printf("\"%d\"的绝对值是\"%d\"\n",x,abs);
 	
+
 	//3.单分支转换小写字母
 	char w,sw;
 	printf("请输入任意一个字母：");
@@ -39,6 +41,7 @@ int main()
 	sw = w + 32;
 	}
 	printf("\"%c\"的小写字母为\"%c\"\n",w,sw);
+
 
 	//单分支三个数排序
 	int a,b,c,t;//输入的三个数
@@ -69,6 +72,7 @@ int main()
 	}
 	printf("这三个数的排序为:%d>%d>%d\n",a,b,c);
 
+
 	//4.登陆密码
 	int x = 123321;//正确密码
 	int y;
@@ -82,6 +86,7 @@ int main()
 	{
 		printf("密码错误!\n");
 	}
+
 
 	//5.抽奖(1-10)(随机数知识点)
 	int x,y,z,sum;
@@ -102,6 +107,7 @@ int main()
 	{
 		printf("未中奖\n");
 	}
+
 
 	//6.判断字符类型(多分支)
 	char c;
@@ -124,6 +130,7 @@ int main()
 		printf("\"%c\"为其他字符类型\n",c);
 	}
 
+
 	//7.BMI(偏瘦 正常 偏胖)(<18偏瘦 18-23.5正常 >23.5偏胖)
 	float h,w,bmi;
 	printf("请输入分别输入身高(m)和体重(kg):\n");
@@ -145,6 +152,7 @@ int main()
 	{
 		printf("你的BMI至为:\"%.2f\",体型无法判断\n",bmi);
 	}
+
 
 	//四则运算器(用户输入:运算数运算符运算数)
 	float num1,num2;
@@ -174,6 +182,7 @@ int main()
 		printf("输入有误，请重试！\n");
 	}
 
+
 	//如果x>0 y=1;如果x=0 y=0;如果x<0 y=-1
 	int x,y;
 	printf("请输入任意一个数:");
@@ -191,6 +200,7 @@ int main()
 		y=-1;
 	}
 	printf("x=%d y=%d\n",x,y);
+
 
 	//工资=基本工资+提成
 	float sale,s,d;
@@ -222,17 +232,20 @@ int main()
 		printf("您的工资为:%.2f 提成为:%.2f 销售额:%.2f\n",s+d,d,sale);
 	}
 
+
 	//条件表达式 例1
 	int x,abs;
 	scanf("%d",&x);
 	abs = x >0 ?x : -x;//条件表达式(表达式1 ? 表达式2 : 表达式3 (简便的双分支)(表达式1满足 则 表达式2 否则 表达式3))
 	printf("\"%d\"的绝对值是\"%d\"\n",x,abs);
 
+
 	//条件表达式 例2
 	int x,y,max;
 	scanf("%d%d",&x,&y);
 	max = x>y ? x :y;
 	printf("\"%d\"和\"%d\"的最大值是\"%d\"\n",x,y,max);
+
 
 	//switch语句 P73
 	float num1,num2;
