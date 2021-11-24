@@ -13,6 +13,7 @@ int main()
 		i++;
 	}
 
+
 	//1.1 ¸ÄÐ´forÑ­»·
 	int i;
 	for(i=1;i<=10;i++)
