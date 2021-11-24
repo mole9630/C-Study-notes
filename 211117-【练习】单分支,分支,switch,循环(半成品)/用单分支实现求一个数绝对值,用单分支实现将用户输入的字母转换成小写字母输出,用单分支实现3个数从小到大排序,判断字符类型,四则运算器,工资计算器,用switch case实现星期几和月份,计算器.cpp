@@ -160,7 +160,7 @@ int main()
 		//7.2 1-12对应几月份
 		int x;
 		printf("请输入任意一个1-12的数字：");
-		scanf("%c",&x);
+		scanf("%d",&x);
 		switch(x)
 		{
 		case 1:printf("\"%d\"为1月\n",x);break;
